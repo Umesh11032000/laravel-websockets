@@ -5,7 +5,7 @@
                 <div class="card border border-dark shadow-0 mb-3">
                     <div class="card-header bg-transparent border-dark">Chat Room</div>
                     <div class="card-body text-dark">
-                        <ul class="list-unstyled" style="height:300px; overflow-y: scroll;">
+                        <ul class="list-unstyled" style="height:300px; overflow-y: scroll;" v-chat-scroll>
                             <li class="p-2" v-for="(message, index) in messages" :key="index">
                                 <strong>{{ message.user.name }}</strong>
                                 {{ message.message }}
