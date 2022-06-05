@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header">{{ __('My App') }}</div>
+                <div class="card-header">{{ __('Talking with Imaginative Minds') }}</div>
 
                 <div class="card-body" id="app">
                     <chat-app :user="{{ auth()->user() }}"></chat-app>
