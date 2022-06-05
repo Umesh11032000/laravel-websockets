@@ -14312,3 +14312,7 @@ textarea.form-control-lg {
   overflow: visible;
   clip: auto;
 }
+
+.card-body {
+  padding: 0 !important;
+}

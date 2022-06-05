@@ -10,11 +10,11 @@ class Message extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id', 'message'
+        'from', 'to', 'read' ,'text'
     ];
 
-    public function user()
+    public function fromContact()
     {
-        return $this->belongsTo(User::class);  
+        return $this->hasOne(User::class,'id','from');
     }
 }
