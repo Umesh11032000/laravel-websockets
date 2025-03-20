@@ -1,3 +1,21 @@
+# Laravel WebSocket & Vue.js One-to-One Chat App
+
+A real-time one-to-one chat application built using Laravel WebSockets and Vue.js.
+
+## Features
+
+- **Real-time messaging** using Laravel WebSockets
+- **Vue.js frontend** with dynamic chat updates
+- **User authentication**
+- **Private messaging** (one-to-one chat)
+- **Total Unread Messages Counter**
+
+## Technologies Used
+
+- **Backend**: Laravel, Laravel WebSockets, Laravel Echo
+- **Frontend**: Vue.js, Axios, Bootstrap
+- **Database**: MySQL
+- **WebSocket Server**: pusher-js
 
 ## Installation
 Do the following after you've cloned this project:
